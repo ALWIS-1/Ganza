@@ -1,0 +1,127 @@
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    padding: 40px;
+}
+
+
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #222;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f1f3f5;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Actions */
+.actions a {
+    margin-right: 10px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.actions a.edit {
+    color: #28a745;
+}
+
+.actions a.delete {
+    color: #dc3545;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+input[type="text"] {
+    padding: 12px 14px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Button */
+a.back, a.create-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+}
+
+a.back:hover, a.create-link:hover {
+    background-color: #5a6268;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+}
