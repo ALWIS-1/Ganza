@@ -15,10 +15,10 @@
         <table class="user-table">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Full Name</th>
-                    <th>Last Name</th>
-                    <th>Actions</th>
+                    <th>USER IDENTIFICATION </th>
+                    <th>FIRST NAME</th>
+                    <th>LAST NAME</th>
+                    <th colspan="2">ACTION </th>
                 </tr>
             </thead>
             <tbody>
